@@ -199,6 +199,13 @@ const args: ICLIArgument[] = [
     type: 'string',
     description: 'Extra arguments to pass to gcov',
   },
+  {
+    alias: 'CM',
+    name: 'compatibilityMode',
+    type: 'boolean',
+    default: false,
+    description: `Uses bash uploader internally`,
+  },
 ]
 
 export interface IYargsObject {
